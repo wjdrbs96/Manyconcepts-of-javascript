@@ -17,4 +17,4 @@
 
 ## 목차
 
-* [var, let, const 차이란?]() 
+* [var, let, const 차이란?](https://github.com/wjdrbs96/33concepts-of-javascript/blob/master/1.%20var%2C%20let%2C%20const/var%2C%20let%2C%20const.md) 
