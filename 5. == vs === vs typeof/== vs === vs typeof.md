@@ -139,3 +139,10 @@ if (typeof value == "string") {
     console.log("This value is boolean");
 } 
 ```
+
+
+<br>
+
+# Reference
+
+* [참고1](https://github.com/alstn2468/33concepts-of-javascript/blob/master/5_==_vs_===_vs_typeof/README.md)
