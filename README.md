@@ -9,7 +9,7 @@
 
 <div align="center">
     <h3>
-        <a href="https://github.com/leonardomso/33-js-concepts">33-js-concepts</a>와 개인적으로 공부하다 궁금한 것을  레파지토리 입니다.
+        <a href="https://github.com/leonardomso/33-js-concepts">33-js-concepts</a>와 개인적으로 공부하다 궁금한 것을 정리하는 레파지토리 입니다.
     </h3>
 </div>
 
