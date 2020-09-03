@@ -42,6 +42,7 @@ console.log(x, y, a, b); // 10, 'abc', 5, 'def'
 
 위와같이 a, b의 변수의 값을 바꾼다고 해서 x, y의 값이 바뀌지 않는다. 값만 복사하여 할당한 것이기 때문에 서로 관계가 없는 변수이다. 
 
+<br>
 
 ### Objects
 
@@ -226,7 +227,11 @@ console.log(alexChanged); // { name: 'Alex', age: 25 }
 
 여기서 위와 같이 `alex`를 파라미터로 넘겼지만, `changeAgePure()`함수에서 `JSON.stringify`를 통해서 문자열로 변환한 다음, `JSON.parse`를 사용하여 다시 객체로 변환하여 반환된 값을 새로운 변수에 저장한다. 따라서 `chageAgePure()`함수에서 `age`의 값을 변경하여도 원본인 `Alex`의 영향을 주지 않게 된다. 그리고 반환될 `newPersonObj`는 새로운 변수에 저장되어야 한다. 그렇지 않으면 함수가 종료되었기 때문에 `Garbage collection`에 의해 처리된다.
 
+<br>
 
+# Reference
+
+* [https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0](https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0)
 
 
 

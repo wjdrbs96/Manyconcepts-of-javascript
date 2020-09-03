@@ -21,3 +21,6 @@
 
 
 * [== vs === vs typeof](https://github.com/wjdrbs96/33concepts-of-javascript/blob/master/5.%20%3D%3D%20vs%20%3D%3D%3D%20vs%20typeof/%3D%3D%20vs%20%3D%3D%3D%20vs%20typeof.md)
+
+
+* [Value Type vs Reference Type](https://github.com/wjdrbs96/Manyconcepts-of-javascript/blob/master/3.%20Value%20Type%20vs%20Reference%20Type/Value%20Type%20vs%20Reference%20Type.md)
