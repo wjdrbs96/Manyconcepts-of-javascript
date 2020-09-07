@@ -31,10 +31,8 @@ if (true) {
 console.log(x);   // 3
 ```
 
-<div>
-또한 var는 함수 스코프를 가지기 때문에 if문의 블록과 관계없이 변수에 접근할 수 있다.
-그래서 ES6 이후, 이를 보완하기 위해 추가 된 변수 선언 방식이 let과 const이다. 
-</div>
+또한 var는 `함수 스코프`를 가지기 때문에 `if문의 블록과 관계없이 변수에 접근할 수 있다`.
+그래서 ES6 이후, 이를 보완하기 위해 추가 된 변수 선언 방식이 `let`과 `const`이다.
 
 <br>
 
@@ -50,9 +48,7 @@ ll = 333;
 console.log(ll);  // 333
 ```
 
-<div>
-let은 변수에 재할당은 가능하지만, 재선언이 불가능하다.
-</div>
+`let은 변수에 재할당은 가능하지만, 재선언이 불가능하다`.
 
 <br><br>
 
@@ -62,9 +58,8 @@ if (true) {
 }
 console.log(x);// Uncaught ReferenceError : y is not defined
 ```
-<div>
+
 let은 `블록 스코프`를 가지므로 블록 밖에서는 변수에 접근할 수 없다. 블록 스코프를 사용함으로써 호이스팅 같은 문제도 해결되고 코드 관리도 수월해졌다.
-</div>
 
 <br>
 
@@ -81,9 +76,7 @@ name = 333
 console.log(name)   // Uncaught TypeError: Assignment to constant variable.
 ```
 
-<div>
-const는 변수 재선언, 변수 재할당 모두 불가능하다.따라서 const로 선언한 변수는 상수라고 부르기도 한다. 
-</div>
+`const는 변수 재선언, 변수 재할당 모두 불가능`하다.따라서 const로 선언한 변수는 상수라고 부르기도 한다. 
 
 <br><br>
 
@@ -94,9 +87,7 @@ if (true) {
 console.log(x);   // Uncaught ReferenceError : y is not defined
 ```
 
-<div>
-const도 let과 마찬가지로 블록 스코프를 가지기 때문에 블록 밖에서는 변수에 접근할 수 없다.
-</div>
+`const`도 let과 마찬가지로 `블록 스코프`를 가지기 때문에 블록 밖에서는 변수에 접근할 수 없다.
 
 <br><br>
 
@@ -111,13 +102,11 @@ const도 let과 마찬가지로 블록 스코프를 가지기 때문에 블록 �
 
 ### 호이스팅이란? 
 
-<div>
-호이스팅(Hoisting)이란?, var 선언문이나 function 선언문 등을 해당 스코프의 선두로 옮긴 것처럼 동작하는 특성을 말한다. <br><br>
+`호이스팅(Hoisting)이란?`, var 선언문이나 function 선언문 등을 해당 스코프의 선두로 옮긴 것처럼 동작하는 특성을 말한다. <br><br>
 
 자바스크립트는 ES6에서 도입된 let, const를 포함하여 모든 선언(var, let, const, function, function*, class)을 호이스팅한다. <br>
 
 하지만, var 로 선언된 변수와는 달리 let 로 선언된 변수를 선언문 이전에 참조하면 참조 에러(ReferenceError)가 발생한다.
-</div>
 
 
 ```javascript
@@ -149,7 +138,8 @@ console.log(ll);  // 1
 
 <br>
 
-<div>하지만 let로 선언된 변수는 선언 단계와 초기화 단계가 분리되어 진행된다.</div>
+하지만 let로 선언된 변수는 선언 단계와 초기화 단계가 분리되어 진행된다.
+
 <br>
 
 ```javascript
