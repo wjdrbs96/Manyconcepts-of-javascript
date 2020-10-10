@@ -95,3 +95,11 @@ const animal = {
 ```
 
 위에서도 `this.animalFriends`으로 `this`를 사용하면 `전역 객체 window`를 가리키게 된다.
+
+
+<br>
+
+# Reference
+
+[https://hyun0310woo.tistory.com/39](https://hyun0310woo.tistory.com/39)
+[https://hyun0310woo.tistory.com/25](https://hyun0310woo.tistory.com/25)
