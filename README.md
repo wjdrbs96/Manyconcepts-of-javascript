@@ -24,3 +24,13 @@
 
 
 * [Value Type vs Reference Type](https://github.com/wjdrbs96/Manyconcepts-of-javascript/blob/master/3.%20Value%20Type%20vs%20Reference%20Type/Value%20Type%20vs%20Reference%20Type.md)
+
+
+<br>
+
+## SOPT 27th
+
+### 1차 세미나
+
+- [var, let, const란?](https://github.com/wjdrbs96/33concepts-of-javascript/blob/master/1.%20var%2C%20let%2C%20const/var%2C%20let%2C%20const.md)
+- [null vs undefined]()
