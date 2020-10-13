@@ -34,4 +34,4 @@
 
 - [var, let, const란?](https://github.com/wjdrbs96/33concepts-of-javascript/blob/master/1.%20var%2C%20let%2C%20const/var%2C%20let%2C%20const.md)
 - [null vs undefined](https://github.com/wjdrbs96/Manyconcepts-of-javascript/blob/master/JS_Study/null%20vs%20undefined.md)
-- [Array]()
+- [Array](https://github.com/wjdrbs96/Manyconcepts-of-javascript/blob/master/JS_Study/Array.md)

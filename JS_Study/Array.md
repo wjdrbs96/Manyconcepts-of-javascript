@@ -92,6 +92,10 @@ const result = numberList.reduce((acc, cur) => {
 console.log(result); // [ 1, 3 ]
 ```
 
+<br>
+
+## 정리
+
 ```
 반복되는 모든 것에는 reduce를 쓸 수 있다는 것을 기억하면 된다.
 
