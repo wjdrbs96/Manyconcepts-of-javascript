@@ -1,8 +1,7 @@
-const numberList = [1, 2, 3];
+var array = ["Gyunny", "Spring", "NodeJS"];
 
-const result = numberList.reduce((acc, cur) => {
-  if (cur % 2) acc.push(cur);
-  return acc;
-}, []);
+const [node, obj, bool] = array;
 
-console.log(result); // [ 1, 3 ]
+console.log(node);  // Gyunny
+console.log(obj);   // Spring
+console.log(bool);  // NodeJS
